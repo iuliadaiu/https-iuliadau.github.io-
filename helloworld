@@ -1,0 +1,14 @@
+<html>
+
+    <title> Titlul paginii -- HelloWorld </title>
+    <meta> Aici se pune informatie specifica paginii -- pentru motoarele de cautare</meta>
+
+
+
+    <h1> Hello World </h1>
+    <p> Aici se pune informatia ce va fi prezentata de catre browser. </p>
+    <!-- !-- Acesta este un comentariu -->
+    <!-- !-- <p> este tagul corespunzator -->
+    <!-- !-- <h1> este un tag pentru paragraf cu un anume tip de formatare 
+
+	    (mai mare, bold etc) -->         
