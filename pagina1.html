@@ -1,25 +1,40 @@
-<!DOCTYPE html>
-<html lang="ro"> 
+<!DOCTYPE html> 
+<html lang="ro">
   <head> 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Mea Web</title> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Prima mea pagina Web</title>
     <style> 
-      body { font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333; 
-            margin: 0; 
-            padding: 20px; 
-           } h1 { 
-        color: #4CAF50; 
+      body { 
+        background-color: #00FFFF; /* Turcoaz */ 
+        font-family: Arial, sans-serif; 
+      } 
+      .container {
+        max-width: 600px; 
+        margin: 0 auto; 
+        padding: 20px; 
+        background-color: #00FFFF; 
+        text-align: center;
       }
+      h1 { 
+        font-size: 24px;
+        font-weight: bold; 
+      } 
       p { 
         font-size: 18px;
-      } </style>
-  </head> 
-  <body> 
-    <h1>Prima mea pagina Web realizata in 07.11.2024</h1>
-    <p>Cândva am să devin un expert HTML</p> 
-    <p>Pagina realizata de: D.Iulia</p> 
+      }
+      .bold-text {
+        font-weight: bold;
+      } .italic-text {
+        font-style: italic;
+      } 
+    </style>
+  </head>
+  <body>
+    <div class="container"> 
+      <h1>Prima mea pagina Web realizata in 07.11.2024</h1> 
+      <p>Curand am sa devin un <span class="bold-text">expert</span> HTML</p> 
+      <p>Pagina realizata de: <span class="italic-text">D.Iulia</span></p> 
+    </div>
   </body>
 </html>
